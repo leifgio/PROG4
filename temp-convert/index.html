@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="sass/main.css" />
+    
+  </head>
+  <body>
+    <section class="page">
+      <div class="container">
+        <div class="form">
+          <h2 class="heading">Convert temperature</h2>
+          <input
+            type="number"
+            id="num"
+            class="form__input"
+            placeholder="value"
+            required
+          />
+          <label for="num" class="form__label">value</label>
+          <div class="form__group">
+          <input type="radio" class="form__radio" id="celsius" name="type" value="cToF"/>
+          <label for="celsius" class="form__radio-label" required >celsius to farenheit</label>
+          <input type="radio" class="form__radio" id="farenheit" name="type" value="fToC"/>
+          <label for="farenheit" class="form__radio-label">farenheit to celsius</label>
+          </div>
+          <input type="button" value="convert" class="btn" id="convert"></input>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

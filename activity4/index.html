@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>activity 4</title>
+    <style>
+      body {
+        background-color: #b8e1ff;
+      }
+      .box {
+        background-color: #e8aeb7;
+        height: 100px;
+        width: 100px;
+        margin: 400px 100px;
+      }
+
+      .box:hover {
+        animation: box-move 6s infinite alternate; /* alternate value comes from animation direction. it makes the div object animate back and forth */
+      }
+
+      @keyframes box-move {
+        from {
+        }
+        to {
+          transform: translateX(600px) scale(2) rotate(360deg);
+          background-color: #6d3d14;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<!-- unzip first to see photo -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simpol recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/title-logo.svg">
+    <style>
+        h1,
+        caption {
+            font: 700 3.5rem "Montserrat", sans-serif;
+        }
+
+        h2 {
+            font: 700 2.5rem "Montserrat", sans-serif;
+        }
+
+        p {
+            font: 400 1.125rem "Open Sans", sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #A18276;
+            color: #292930;
+        }
+
+        header {
+            background-image: url(food.jpg);
+            background-size: cover;
+            height: 900px;
+        }
+
+        .header-content {
+            padding-top: 20rem;
+            padding-bottom: 17.5rem;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .discover {
+            display: inline-block;
+            margin-top: 2.5rem;
+            padding: 1rem 2.125rem 1rem 2.125rem;
+            border: 0.125rem solid #14bf98;
+            border-radius: 0.25rem;
+            background-color: #14BF98;
+            color: #ffffff;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .discover:hover {
+            background-color: #14bf9800;
+        }
+
+        .tables {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+
+        }
+
+        .table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table,
+        th,
+        td {
+            border: solid #808080 1px;
+        }
+
+        th,
+        td,
+        li {
+            padding: 1rem 3rem;
+            font-size: 1.5rem;
+        }
+
+        caption {
+            padding: 1.5rem;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #14bf98;
+            text-align: center;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Kare-kare recipe</h1>
+            <p>On this page we will show you how to cook your favorite dish. </p>
+            <a class="discover" href="#anchor1">discover</a>
+            <a class="discover" href="#anchor2">watch</a>
+        </div>
+    </header>
+    <br><br><br>
+
+    <main>
+
+        <div class="tables" id="anchor1">
+            <table class="table">
+                <caption>Sauce</caption>
+                <thead>
+                    <tr>
+                        <th>Ingredients</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>Simpol Crispy Pork Belly</td>
+                        <td>4-6 servings</td>
+                    </tr>
+                    <tr>
+                        <td> garlic, minced</td>
+                        <td>1 head </td>
+                    </tr>
+                    <tr>
+                        <td>onion, chopped</td>
+                        <td>2 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>annatto seeds</td>
+                        <td>½ cup</td>
+                    </tr>
+                    <tr>
+                        <td>flour</td>
+                        <td>½ cup</td>
+                    </tr>
+                    <tr>
+                        <td>peanut butter</td>
+                        <td>½ cup</td>
+                    </tr>
+                    <tr>
+                        <td>beef stock</td>
+                        <td>4-5 cups</td>
+                    </tr>
+                    <tr>
+                        <td>Oil</td>
+                        <td>as needed</td>
+                    </tr>
+                    <tr>
+                        <td>Salt and pepper</td>
+                        <td>to taste</td>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+            <table class="table">
+                <caption>Vegetables</caption>
+                <thead>
+                    <tr>
+                        <th>Ingredients</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>banana heart</td>
+                        <td>1 piece</td>
+                    </tr>
+                    <tr>
+                        <td>sitaw</td>
+                        <td>12 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>eggplant</td>
+                        <td>2 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>native pechay</td>
+                        <td>1 bunch</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <br><br><br>
+
+
+
+    </main>
+    <h2 style="margin-left: 150px;">Procedure</h2>
+    <ol type="1" style="margin-left: 180px;">
+        <li>prepare annatto oil</li>
+        <li>saute garlic and onion</li>
+        <li>add flour</li>
+        <li>add beef stock and peanut butter</li>
+        <li>blanch vegetables</li>
+        <li>serve veggies on meat on top of sauce</li>
+
+    </ol>
+    <br><br><br>
+    <h2 id="anchor2" style="margin-left: 150px;">Watch</h2>
+    <iframe style="margin-left: 100px;" width=" 1120;" height="630" src="https://www.youtube.com/embed/6XuB87vW0to"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    <br><br><br><br><br>
+</body>
+
+</html>
